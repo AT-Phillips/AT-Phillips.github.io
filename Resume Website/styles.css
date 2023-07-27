@@ -1,0 +1,115 @@
+/* Austin Phillips, 7/26/23, "Resume Website", styles.css */
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+table {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Main Styles */
+main {
+    padding: 4rem;
+}
+
+.highlight {
+    margin-bottom: 2rem;
+}
+
+/* Table Styles */
+.table-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.table-section th,
+.table-section td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+}
+
+/* Form Styles */
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.form-section label {
+    margin-bottom: 0.5rem;
+}
+
+.form-section input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.form-section button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: #ffffff;
+    background-color: #333;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .form-section form {
+        max-width: 100%;
+    }
+}
